@@ -1,3 +1,4 @@
 import streamlit as st
+import os, time
 
-st.title('Hello Streamlit')
+print(f'✅ {os.path.basename(__file__)} 실행됨 {time.strftime("%Y-%m-%d %H:%M:%S")}')
